@@ -1,0 +1,122 @@
+.container{
+ padding: 10px 0px 0px 0px;
+ margin-top: 10px;
+  background-color: #f9eeea;
+  height: 90%;
+}
+
+
+.maincontainer{
+  /* border: 2px solid red; */
+  width: 100%;
+  display: flex;
+  height: 80vh;
+  transition: all 0.5s ease-in-out;
+}
+
+.Webcame{
+  width: 80%;
+  /* border: 2px solid yellow; */
+ 
+}
+/* .react-webcame{
+  height: 500px;
+  width: 100%;
+} */
+.Webcame .Webcame_button{
+  background-color: #000;
+  border-radius: 5%;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+.Preview{
+  width: 100%;
+  height: 90%;
+  margin-left: 30px;
+  /* border: 2px solid yellow; */
+
+}
+
+.form-control{
+  width: 50%;
+  float: left;
+ 
+}
+.Upload_Document{
+  margin-top: 3%;
+  height:10vh;
+  width: 500px;
+  margin-left: 40%;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .Webcame{
+    width:40%;
+    border: 2px solid red;
+
+  }
+  .Preview{
+    margin: 5px;
+    border: 2px solid red;
+    width: 40%;
+    padding-top: 10px;
+  }
+ }
+
+
+@media  screen and (max-width:768px) {
+  .maincontainer{
+    flex-direction: column;
+  }
+  .Webcame{
+    width: 100%;
+    height: 50%;
+    display: flex;
+  }
+.react-webcame{
+height: 100%;
+width: 70%;
+margin-left: 0;
+border: 2px solid red;
+}
+.Webcame .Webcame_button{
+   height: 20%;
+   margin: 0;
+    border: 2px solid red;
+    transform: translate(0%);
+
+}
+  .Preview{
+    width:100%;
+    height: 50%;
+  }
+  .Upload_Document{
+    border: 2px solid red;
+    margin: 0;
+  }
+  
+}
+
+
+
+/* @media screen and (max-width: 600px) {
+ .container{
+   height: 100%;
+   width: 100vw;
+   padding-bottom: 10px;
+ }
+ .Upload_Document{
+    margin-left: 0%;
+    margin-top: 0%;
+ }
+.form-control{
+  float: none;
+}
+}
+   */
